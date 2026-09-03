@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "source": "robotsevolved.com public random puzzle",
+    "collected_at": "2026-09-02",
+    "source_id": 55150,
+    "source_uri": "4b675470f47548d7931ef1997e96aeca",
+    "difficulty": "easy",
+    "minimum_moves": 7
+  },
+  "puzzle": {
+    "width": 16,
+    "height": 16,
+    "playerStart": [
+      {"top": 12, "left": 8, "colorSignifier": "blue"},
+      {"top": 3, "left": 12, "colorSignifier": "green"},
+      {"top": 7, "left": 8, "colorSignifier": "red"},
+      {"top": 14, "left": 9, "colorSignifier": "yellow"}
+    ],
+    "wallHorizontal": [
+      {"top": 2, "left": 4, "opacity": 1}, {"top": 1, "left": 8, "opacity": 1},
+      {"top": 2, "left": 13, "opacity": 1}, {"top": 5, "left": 8, "opacity": 1},
+      {"top": 5, "left": 13, "opacity": 1}, {"top": 8, "left": 2, "opacity": 1},
+      {"top": 7, "left": 5, "opacity": 1}, {"top": 8, "left": 7, "opacity": 1},
+      {"top": 7, "left": 11, "opacity": 1}, {"top": 7, "left": 14, "opacity": 1},
+      {"top": 10, "left": 1, "opacity": 1}, {"top": 10, "left": 5, "opacity": 1},
+      {"top": 15, "left": 11, "opacity": 1}, {"top": 2, "left": 0, "opacity": 1},
+      {"top": 6, "left": 0, "opacity": 1}, {"top": 12, "left": 15, "opacity": 1},
+      {"top": 5, "left": 15, "opacity": 1}
+    ],
+    "wallVerticle": [
+      {"top": 2, "left": 4, "opacity": 1}, {"top": 1, "left": 8, "opacity": 1},
+      {"top": 1, "left": 14, "opacity": 1}, {"top": 4, "left": 9, "opacity": 1},
+      {"top": 5, "left": 13, "opacity": 1}, {"top": 7, "left": 2, "opacity": 1},
+      {"top": 7, "left": 5, "opacity": 1}, {"top": 7, "left": 7, "opacity": 1},
+      {"top": 7, "left": 12, "opacity": 1}, {"top": 7, "left": 15, "opacity": 1},
+      {"top": 10, "left": 2, "opacity": 1}, {"top": 10, "left": 5, "opacity": 1},
+      {"top": 14, "left": 12, "opacity": 1}, {"top": 0, "left": 5, "opacity": 1},
+      {"top": 0, "left": 12, "opacity": 1}, {"top": 15, "left": 2, "opacity": 1},
+      {"top": 15, "left": 8, "opacity": 1}
+    ],
+    "goal": {"top": 7, "left": 2},
+    "coloredGoals": null
+  },
+  "reference_solution": ["GW", "GS", "RN", "RW", "BN", "BW", "BS"]
+}

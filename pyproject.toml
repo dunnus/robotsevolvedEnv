@@ -1,0 +1,36 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "robotsevolved-env"
+version = "0.1.0"
+description = "A local Gymnasium environment for Robots Evolved / Ricochet Robots puzzles"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "gymnasium>=1.0,<2",
+  "numpy>=1.26,<3",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<9"]
+train = [
+  "accelerate>=1.2",
+  "datasets>=3.2",
+  "torch>=2.5",
+  "transformers>=5.2",
+  "trl>=0.24",
+]
+
+[project.scripts]
+robotsevolved-hillclimb = "robotsevolved_env.hillclimb:main"
+robotsevolved-rollout = "robotsevolved_env.visualization:main"
+robotsevolved-train = "robotsevolved_env.trl_train:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/robotsevolved_env"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]

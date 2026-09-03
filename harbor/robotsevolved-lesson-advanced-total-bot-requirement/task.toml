@@ -1,0 +1,22 @@
+schema_version = "1.4"
+[task]
+name = "robotsevolved/lesson-advanced-total-bot-requirement"
+version = "1.0.0"
+description = "Solve the offline Total Bot Requirement lesson board."
+authors = [{ name = "RobotsEvolved environment contributors" }]
+keywords = ["harbor", "planning", "lesson", "robot", "offline", "reasoning"]
+[metadata]
+difficulty = "advanced"
+category = "reasoning"
+source = "offline snapshot from robotsevolved.com Lessons"
+source_id = 14
+[agent]
+timeout_sec = 600.0
+[verifier]
+timeout_sec = 30.0
+[environment]
+build_timeout_sec = 300.0
+network_mode = "no-network"
+cpus = 1
+memory_mb = 512
+storage_mb = 1024

@@ -1,0 +1,22 @@
+schema_version = "1.4"
+[task]
+name = "robotsevolved/lesson-beginner-stopping-on-goal"
+version = "1.0.0"
+description = "Solve the offline Stopping on Goal lesson board."
+authors = [{ name = "RobotsEvolved environment contributors" }]
+keywords = ["harbor", "planning", "lesson", "robot", "offline", "reasoning"]
+[metadata]
+difficulty = "beginner"
+category = "reasoning"
+source = "offline snapshot from robotsevolved.com Lessons"
+source_id = 24
+[agent]
+timeout_sec = 300.0
+[verifier]
+timeout_sec = 30.0
+[environment]
+build_timeout_sec = 300.0
+network_mode = "no-network"
+cpus = 1
+memory_mb = 512
+storage_mb = 1024

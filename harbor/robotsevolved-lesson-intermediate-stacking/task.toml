@@ -1,0 +1,22 @@
+schema_version = "1.4"
+[task]
+name = "robotsevolved/lesson-intermediate-stacking"
+version = "1.0.0"
+description = "Solve the offline intermediate Stacking lesson board."
+authors = [{ name = "RobotsEvolved environment contributors" }]
+keywords = ["harbor", "planning", "lesson", "robot", "offline", "reasoning"]
+[metadata]
+difficulty = "intermediate"
+category = "reasoning"
+source = "offline snapshot from robotsevolved.com Lessons"
+source_id = 25
+[agent]
+timeout_sec = 300.0
+[verifier]
+timeout_sec = 30.0
+[environment]
+build_timeout_sec = 300.0
+network_mode = "no-network"
+cpus = 1
+memory_mb = 512
+storage_mb = 1024
